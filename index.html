@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Apna Sweet | Premium Restaurant</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+        <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+  <div class="floating-food">
+
+🍕 🍔 🥪 🌮 🍟 ☕ 🍨
+
+</div>
+
+    <!-- Loader -->
+    <div id="loader">
+        <h1>Apna Sweet</h1>
+    </div>
+
+    <!-- Main Website -->
+    <div id="main">
+      <!-- Premium Navbar -->
+      <header class="navbar">
+
+   <img src="images/logo.jpg" class="logo-img">
+
+    <div class="nav-title">
+        Apna Sweet
+    </div>
+
+</header>
+
+        <!-- Hero Section -->
+        <section class="hero" id="hero">
+
+            <div class="overlay"></div>
+
+            <div class="hero-content">
+
+                <h1>Apna Sweet</h1>
+
+                <p>
+                    Pure Veg Family Restaurant
+                </p>
+
+                <button id="menuBtn">
+                    View Menu
+                </button>
+
+            </div>
+
+        </section>
+        <!-- Today's Special -->
+
+<section class="today-special">
+
+    <h2>🔥 Today's Special</h2>
+
+    <div class="special-card">
+
+        <img src="images/special.jpg" alt="Today's Special">
+
+        <div class="special-content">
+
+            <h3>Royal Deluxe Thali</h3>
+
+            <p>
+                Paneer • Dal Makhani • Mix Veg • Butter Naan • Jeera Rice • Sweet
+            </p>
+
+            <h4>₹299</h4>
+
+            <button class="special-btn">
+                Order Now
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+        <!-- Search -->
+        <section class="search-section">
+
+            <input
+                type="text"
+                id="search"
+                placeholder="Search your favourite food...">
+
+        </section>
+
+        <!-- Categories -->
+        <section class="categories">
+
+            <button class="active" data-category="All">All</button>
+            <button data-category="Pizza">Pizza</button>
+            <button data-category="Chinese">Chinese</button>
+            <button data-category="South Indian">South Indian</button>
+            <button data-category="North Indian">North Indian</button>
+            <button data-category="Sandwich">Sandwich</button>
+            <button data-category="Burger">Burger</button>
+            <button data-category="Rolls">Rolls</button>
+            <button data-category="Soup">Soup</button>
+            <button data-category="Curries">Curries</button>
+            <button data-category="Rice">Rice</button>
+            <button data-category="Roti">Roti</button>
+            <button data-category="Thali">Thali</button>
+            <button data-category="Sweets">Sweets</button>
+            <button data-category="Ice Cream">Ice Cream</button>
+            <button data-category="Tea">Tea</button>
+        </section>
+        <!-- Recommended -->
+        <section class="recommended">
+            <h2>Chef's Recommendation</h2>
+            <div id="recommendGrid">
+            </div>
+        </section>
+        <!-- Menu -->
+        <section class="menu" id="menuSection">
+            <h2>Our Menu</h2>
+            <div id="menuContainer">
+            </div>
+        </section>
+        <section id="contactSection" class="contact">
+
+    <h2>Contact Us</h2>
+
+    <p>📍 Apna Sweet</p>
+
+    <p>📞 +91 9977734419</p>
+
+    <p>🕒 Open Everyday</p>
+
+    <p>10:00 AM - 11:00 PM</p>
+
+</section>
+        <!-- Footer -->
+        <footer>
+            <h2>Apna Sweet</h2>
+            <p>Thank You ❤️ Visit Again</p>
+            <div class="developer">
+    <p>Developed by <span>Neer</span></p>
+
+    <a href="https://www.instagram.com/dev.neer?igsh=MXFheXFrNXFxeDE0NQ==" target="_blank">
+        <i class="fa-brands fa-instagram"></i>
+    </a>
+</div>
+        </footer>
+    </div>
+    <!-- Bottom Navigation -->
+
+<nav class="bottom-nav">
+
+    <button class="nav-btn active" data-target="hero">
+        <i class="fa-solid fa-house"></i>
+        <span>Home</span>
+    </button>
+
+    <button class="nav-btn" data-target="menuSection">
+        <i class="fa-solid fa-utensils"></i>
+        <span>Menu</span>
+    </button>
+
+    <button class="nav-btn" data-target="contactSection">
+        <i class="fa-solid fa-phone"></i>
+        <span>Contact</span>
+    </button>
+
+</nav>
+<!-- Image Popup -->
+
+<div id="imagePopup" class="image-popup">
+
+    <span id="closePopup">&times;</span>
+
+    <img id="popupImage" src="" alt="Food Image">
+
+</div>
+    <script src="menuData.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
